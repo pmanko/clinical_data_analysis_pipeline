@@ -2,7 +2,7 @@
 
 ## Timeline
 
-### Completed by Spring Quarter 2020
+### Winter Quarter 2020
 *before March 30th, 2020*
 
 - [x] First Draft of Research Proposal
@@ -24,22 +24,22 @@
   - [ ] Jan Flowers
   - [ ] GSR (Steve Mooney?)
 
-### Spring Quarter
+### Spring Quarter 2020
 **(March 30 - June 12)**
 - Administrative Tasks:
-  -[ ] Switch Academic Advisor officially *(first week of quarter)*
-  -[ ] Send in updated schedule *(beginning of quarter)*
-  -[ ] Formalize committee *(mid-April)*
-  -[ ] Schedule general exam *(May 4th)*
+  - [ ] Switch Academic Advisor officially *(first week of quarter)*
+  - [ ] Send in updated schedule *(beginning of quarter)*
+  - [ ] Formalize committee *(mid-April)*
+  - [ ] Schedule general exam *(May 4th)*
   
--[ ] Set up committee meeting *(mid-April)*
+- [ ] Set up committee meeting *(mid-April)*
 
 - Review and Iterate to present at commitee meeting *(mid-April)*:
   - [ ] Aims Page 
   - [ ] Research Overview Diagram
   - [ ] Research Proposal
 
--[ ] Finalize AIMS Page for General Exam *(End of April)*
+- [ ] Finalize AIMS Page for General Exam *(End of April)*
 
 - Pilot Research Pipeline *(End of April)*
   - [ ] Demographic Subsets of MIMIC Data --> HAPI Server
@@ -49,11 +49,11 @@
 - Pilot OpenMRS FHIR Approaches *(End of April)*
   - [ ] Framework for FHIR Async Module
 
--[ ] Iterate over General Exam Proposal *(Committee Meeting --> May 23)*
+- [ ] Iterate over General Exam Proposal *(Committee Meeting --> May 23)*
 
--[ ] Finalize written part of General Exam *(Week of May 23)*
+- [ ] Finalize written part of General Exam *(Week of May 23)*
 
--[ ] General Exam *(June 1 - June 12)*
+- [ ] General Exam *(June 1 - June 12)*
 
 ## Links
 1. Google Drive Folder: https://drive.google.com/drive/folders/1sYR5mElEBQouwopQ_1XYWJUpHpf2Arrs?usp=sharing
