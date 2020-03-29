@@ -1,1 +1,323 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T20:14:11.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.4" etag="TZiBKNdag3fUUZNO-Tc-" type="github"><diagram id="PYvB4AANI1e55dKEyuRp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-03-29T20:14:40.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="G10kOHqnJQ4_WMTlHN8d" version="12.9.4" type="github">
+  <diagram id="PYvB4AANI1e55dKEyuRp" name="Page-1">
+    <mxGraphModel dx="1422" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qqNshkkO-ST30foF-gem-1" value="Proposal Outline" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="139" width="1420" height="651" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-2" value="Aim 1 -&amp;nbsp;" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=none;" vertex="1" parent="qqNshkkO-ST30foF-gem-1">
+          <mxGeometry x="20" width="1400" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-5" target="qqNshkkO-ST30foF-gem-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-5" target="qqNshkkO-ST30foF-gem-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-5" value="A FHIR interface&lt;br&gt;that conforms to the FHIR Async Request API spec and adequately models the underlying clinical data can facilitate the 2ndary use of such data for analytics &lt;br&gt;and reporting" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C6F0B1;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="30" y="20" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-6" value="Async API Support &lt;br&gt;for the OpenMRS &lt;br&gt;FHIR Module" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFCC99;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="1241" y="110" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-7" value="Implementation of a core set of Resources for the OpenMRS FHIR Module" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="1241" y="20" width="130" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-9" target="qqNshkkO-ST30foF-gem-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-9" value="&lt;div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Conformance with FHIR Async Specs&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Impact on &lt;/span&gt;&lt;span&gt;OpenMRS workflows&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;rounded=1;shadow=0;comic=0;align=center;verticalAlign=middle;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="970" y="143" width="220" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-11" target="qqNshkkO-ST30foF-gem-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-11" value="Translate to FHIR &amp;amp; load to HAPI Server" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="360" y="10" width="150" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-9" target="qqNshkkO-ST30foF-gem-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-14" target="qqNshkkO-ST30foF-gem-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-14" value="Access MIMIC data using FHIR Async API" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="553" y="10" width="177" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-16" target="qqNshkkO-ST30foF-gem-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-16" value="Test use in Analytics/Reporting" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="780" y="10" width="150" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-17" value="&lt;span&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;Async FHIR with MIMIC vs. Standard FHIR vs. previous approaches&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;ul&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;rounded=1;shadow=0;comic=0;align=left;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="970" y="5.5" width="220" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-19" target="qqNshkkO-ST30foF-gem-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Coverage of OpenMRS&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;data model / concepts&lt;/span&gt;&lt;/div&gt;- Data support for common &lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;OpenMRS workflows&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;rounded=1;shadow=0;comic=0;align=center;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="970" y="75.5" width="220" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-21" target="qqNshkkO-ST30foF-gem-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-21" value="&lt;b&gt;MIMIC-III&lt;br&gt;Dataset&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="240" y="9.75" width="80" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-23" target="qqNshkkO-ST30foF-gem-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-23" value="Implement missing functionality &amp;amp; mappings" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="690" y="79.75" width="180" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-2" source="qqNshkkO-ST30foF-gem-25" target="qqNshkkO-ST30foF-gem-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-25" value="Implement support for identified features" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="690" y="148.5" width="177" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-26" value="&lt;b&gt;OpenMRS FHIR Module&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-2">
+          <mxGeometry x="240" y="109" width="80" height="61.25" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-27" value="Aim 2" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="qqNshkkO-ST30foF-gem-1">
+          <mxGeometry x="20" y="210" width="1400" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-27" source="qqNshkkO-ST30foF-gem-30" target="qqNshkkO-ST30foF-gem-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-27" target="qqNshkkO-ST30foF-gem-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="71" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="71" />
+              <mxPoint x="540" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-30" value="&lt;b&gt;MIMIC-III HAPI FHIR Server&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-27">
+          <mxGeometry x="220" y="20" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-31" value="CQL Engine w/ standard FHIR adapter" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-27">
+          <mxGeometry x="562" y="18.63" width="150" height="74.37" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-27" source="qqNshkkO-ST30foF-gem-33" target="qqNshkkO-ST30foF-gem-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-33" value="Characterize CQL Engine FHIR Data Adapter" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-27">
+          <mxGeometry x="220" y="121" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-27" source="qqNshkkO-ST30foF-gem-35" target="qqNshkkO-ST30foF-gem-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-35" value="Mirror Functionality w/ new Async FHIR adapter" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-27">
+          <mxGeometry x="390" y="121" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-27" source="qqNshkkO-ST30foF-gem-37" target="qqNshkkO-ST30foF-gem-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-37" value="CQL Engine w/ new Async FHIR adapter" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-27">
+          <mxGeometry x="562" y="123" width="150" height="74.37" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-27" target="qqNshkkO-ST30foF-gem-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="55" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-27" source="qqNshkkO-ST30foF-gem-40" target="qqNshkkO-ST30foF-gem-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-40" value="Clinical Feature Definition using CQL" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;comic=0;fillColor=none;fontSize=16;align=center;" vertex="1" parent="qqNshkkO-ST30foF-gem-27">
+          <mxGeometry x="800" y="130.18" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-41" value="Evaluate use of CQL Engine in Report generation &amp;amp; Analytics Pipelines" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;rounded=1;shadow=0;comic=0;align=center;" vertex="1" parent="qqNshkkO-ST30foF-gem-27">
+          <mxGeometry x="970" y="131" width="220" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-42" value="Aim 3" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="qqNshkkO-ST30foF-gem-1">
+          <mxGeometry x="20" y="431" width="1400" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-42" source="qqNshkkO-ST30foF-gem-45" target="qqNshkkO-ST30foF-gem-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-42" source="qqNshkkO-ST30foF-gem-45" target="qqNshkkO-ST30foF-gem-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-45" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;comic=0;fillColor=#dae8fc;fontSize=16;align=center;strokeColor=#6c8ebf;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="690" y="10" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-46" value="Tailored Synthetic &lt;br&gt;Data Generation for OpenMRS Data Analysis/Reporting Platform" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFCC99;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="1241" y="120" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-47" value="Pipeline for &lt;br&gt;customizing Synthea model parameters to FHIR representation of a clinical dataset" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="1241" y="20" width="130" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-42" source="qqNshkkO-ST30foF-gem-49" target="qqNshkkO-ST30foF-gem-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="30" />
+              <mxPoint x="610" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-49" value="&lt;b&gt;MIMIC-III HAPI FHIR Server&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="220" y="10" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-42" source="qqNshkkO-ST30foF-gem-51" target="qqNshkkO-ST30foF-gem-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="69" />
+              <mxPoint x="610" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-51" value="&lt;b&gt;Generic Synthea&lt;br&gt;FHIR Server&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="410" y="38.25" width="150" height="60.75" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qqNshkkO-ST30foF-gem-42" source="qqNshkkO-ST30foF-gem-53" target="qqNshkkO-ST30foF-gem-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="190" />
+              <mxPoint x="610" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-53" value="&lt;b&gt;OpenMRS FHIR&lt;br&gt;Server&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="220" y="170" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-54" value="&lt;b&gt;Tailored Synthea&lt;br&gt;FHIR Server&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="410" y="119.75" width="150" height="60.25" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-55" value="Reports" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;align=center;glass=0;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="710" y="69.75" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-56" value="Analytics Pipelines" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;align=center;glass=0;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="710" y="115.75" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-57" value="Compare performance of real clinical data vs. generic SGD vs. tailored SGD" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;rounded=1;shadow=0;comic=0;align=center;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="960" y="42.25" width="220" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-58" value="Do parallel analysis with OpenMRS data" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;rounded=1;shadow=0;comic=0;align=center;" vertex="1" parent="qqNshkkO-ST30foF-gem-42">
+          <mxGeometry x="960" y="132.25" width="220" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-59" value="Target Issue / Hypothesis&amp;nbsp;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="157" y="110" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-60" value="Expected Outcomes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1356" y="110" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-61" value="OpenMRS Data Analysis/Reporting Platform Pilot" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="500" width="130" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-62" value="Async FHIR API &lt;br&gt;data Adapter for the CQL engine" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="369" width="130" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-63" value="CQL-based Feature Definition Tool" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="434" width="130" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-64" value="&lt;h1&gt;&lt;span style=&quot;line-height: 50%&quot;&gt;Target Issue&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Access to realistic clinical data is vital during the entire design/implementation/evaluation process of successful clinical interfaces, CDS services and tools, data analyses, reports, and software. Currently available datasets are insufficinet to represent the range of existing clinical datasets, and especially those from non-US, non-Caucasian populations. The lack of sufficient technical infrastructure and the myriad of security and privacy issues associated with sensitive clinical information are major barriers to wider availability of useful clinical datasets for 2ndary use.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="353" y="-210" width="990" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-65" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-66" target="qqNshkkO-ST30foF-gem-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-66" value="CQL provides a&lt;br&gt;&amp;nbsp;standard-based way to map features to clinical data from &lt;br&gt;a FHIR endpoint, and Async FHIR integration improves the&lt;br&gt;suitability of CQL for analytics/reporting &lt;br&gt;pipelines." style="ellipse;whiteSpace=wrap;html=1;fillColor=#C6F0B1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="369" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-67" value="Synthetically generated data methods can be tailored to a given clinical dataset using features available in an Async-enabled FHIR endpoint." style="ellipse;whiteSpace=wrap;html=1;fillColor=#C6F0B1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="589" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-68" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#FFFFFF;arrowWidth=0.3444478352864697;arrowSize=0.4688885498046807;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-69" value="Evaluation" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1145" y="110" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-70" value="Possible Outcome: Parallel OpenMRS Instance running on Synthetically-Generated Data?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="690" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-46" target="qqNshkkO-ST30foF-gem-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-72" value="Approach" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="410" y="110" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-73" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-74" target="qqNshkkO-ST30foF-gem-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-74" value="Identify Gaps in Mappings / Implementation" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="219" width="210" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-75" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-26" target="qqNshkkO-ST30foF-gem-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-76" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-26" target="qqNshkkO-ST30foF-gem-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-78" target="qqNshkkO-ST30foF-gem-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-78" value="Identify target features of Async FHIR API" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="287" width="210" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-80" target="qqNshkkO-ST30foF-gem-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-80" value="Evaluate performance of Async CQL vs. standard CQL on MIMIC data" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;rounded=1;shadow=0;comic=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="375.5" width="220" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-31" target="qqNshkkO-ST30foF-gem-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-37" target="qqNshkkO-ST30foF-gem-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="491" />
+              <mxPoint x="890" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-84" target="qqNshkkO-ST30foF-gem-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-84" value="&lt;b&gt;CQL-defined Features&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="654" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-53" target="qqNshkkO-ST30foF-gem-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-49" target="qqNshkkO-ST30foF-gem-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-87" value="ML Methods" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;align=center;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="729.75" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-88" value="Apps &amp;amp; Tools" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;fillColor=#FFFFFF;fontSize=16;align=center;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="595.75" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="720" />
+              <mxPoint x="750" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-41" target="qqNshkkO-ST30foF-gem-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="qqNshkkO-ST30foF-gem-40" target="qqNshkkO-ST30foF-gem-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-92" value="&lt;h1&gt;&lt;span style=&quot;line-height: 50%&quot;&gt;Goal&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Develop standard-based methods for facilitating secondary use of clinical EHR data in terms of computable data access, feature engineering, and privacy/security concerns.&lt;br&gt;--&amp;gt; Apply / Evaluate methods to standard clinical dataset&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;--&amp;gt; Apply / Evaluate methods on OpenMRS Clinical EHR Platform&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="353" y="-50" width="990" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qqNshkkO-ST30foF-gem-93" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#FFFFFF;arrowWidth=0.3444478352864697;arrowSize=0.4688885498046807;" vertex="1" parent="1">
+          <mxGeometry x="800" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
