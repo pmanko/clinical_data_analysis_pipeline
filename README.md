@@ -26,30 +26,71 @@
 
 ### Spring Quarter 2020
 **(March 30 - June 12)**
-- Administrative Tasks:
-  - [x] Switch Academic Advisor officially *(first week of quarter)*
-  - [x] Send in updated schedule *(beginning of quarter)*
-  - [x] Form committee 
-  - [ ] Schedule general exam *(May 26th)*
-  
+
+**Admin Tasks:**
+- [x] Switch Academic Advisor officially 
+- [x] Send in updated schedule 
+- [x] Form committee 
+- [ ] Send form and committee info to GPA *(May 26)*
+- [ ] Schedule general exam *(by end of May)*
 - [x] Set up first two committee meetings 
 
-- Review and Iterate to present at commitee meeting
-  - [x] Aims Page 
-  - [ ] Aims Table
-  - [ ] Research Proposal
+**Present to Committee**
+- [x] Aims Page 
+- [ ] Aims Table
+- [ ] Background & Significance
 
-- [ ] Finalize AIMS Page for General Exam
-
-- Pilot Research Pipeline
-  - [ ] 
-
-- Pilot OpenMRS FHIR Approach
-  - [ ] Local syncing with HAPI FHIR server
-
-- [ ] Finalize written part of General Exam **
+**Research Proposal**
+- [X] Update AIMS Page 
+- [ ] Plan out Evalutation for each AIM
+- [ ] Viable Draft *(June 8th)*
+  - [ ] Update Background
+  - [ ] Update Significance
+  - [ ] Update Approach
 
 - [ ] General Exam *(June)*
+
+### Summer 2020
+**(June 13 - September 30)**
+
+**Dissertation**
+- [ ] Write Introduction
+- [ ] Incorporate Paper 1
+
+**AIM 1:**
+- [ ] Write Paper 1 on OpenMRS FHIR Module / Haiti work
+- [ ] Set up local sync between OpenMRS & HAPI JPA
+- [X] Create demo dataset using Synthea
+
+**AIM 2:**
+- [ ] Haiti SHR work on central service/repository
+- [ ] Haiti SHR work on reporting off of the central service/repository
+
+**AIM 3:**
+- [ ] Pilot implementation of Pipeline using HAPI server
+- [ ] Coordination with OpenMRS ETL & FHIR efforts
+
+### Fall 2020
+**(September 30 - December 18)**
+
+**Dissertation**
+- [ ] Outline full dissertation, including conclusion
+- [ ] Incorporate Paper 2
+
+**AIM 2:**
+- [ ] Write Paper 2 on Haiti SHR Work & centralized service
+
+**AIM 3:**
+- [ ] Pilot pipeline with OpenMRS data in SHR
+- [ ] Outline paper
+
+### Winter 2020
+**AIM 3:**
+- [ ] Write Paper 3
+
+**Dissertation:**
+- [ ] Write & Iterate
+- [ ] Schedule defense
 
 ## Links
 1. Google Drive Folder: https://drive.google.com/drive/folders/1sYR5mElEBQouwopQ_1XYWJUpHpf2Arrs?usp=sharing
