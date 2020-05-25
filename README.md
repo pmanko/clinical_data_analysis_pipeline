@@ -21,45 +21,41 @@
   - [x] Nancy Puttakamer
   - [x] Bill Lober
   - [x] Sean Mooney
-  - [ ] Jan Flowers
-  - [ ] GSR (Steve Mooney?)
+  - [X] Jan Flowers
+  - [X] GSR - Steve Mooney
 
 ### Spring Quarter 2020
 **(March 30 - June 12)**
 - Administrative Tasks:
-  - [ ] Switch Academic Advisor officially *(first week of quarter)*
-  - [ ] Send in updated schedule *(beginning of quarter)*
-  - [ ] Formalize committee *(mid-April)*
-  - [ ] Schedule general exam *(May 4th)*
+  - [x] Switch Academic Advisor officially *(first week of quarter)*
+  - [x] Send in updated schedule *(beginning of quarter)*
+  - [x] Form committee 
+  - [ ] Schedule general exam *(May 26th)*
   
-- [ ] Set up committee meeting *(mid-April)*
+- [x] Set up first two committee meetings 
 
-- Review and Iterate to present at commitee meeting *(mid-April)*:
-  - [ ] Aims Page 
-  - [ ] Research Overview Diagram
+- Review and Iterate to present at commitee meeting
+  - [x] Aims Page 
+  - [ ] Aims Table
   - [ ] Research Proposal
 
-- [ ] Finalize AIMS Page for General Exam *(End of April)*
+- [ ] Finalize AIMS Page for General Exam
 
-- Pilot Research Pipeline *(End of April)*
-  - [ ] Demographic Subsets of MIMIC Data --> HAPI Server
-  - [ ] CQL Queries for Demographic Features --> Synthea demographics spreadsheet
-  - [ ] Synthea Dataset --> HAPI Server 
+- Pilot Research Pipeline
+  - [ ] 
 
-- Pilot OpenMRS FHIR Approaches *(End of April)*
-  - [ ] Framework for FHIR Async Module
+- Pilot OpenMRS FHIR Approach
+  - [ ] Local syncing with HAPI FHIR server
 
-- [ ] Iterate over General Exam Proposal *(Committee Meeting --> May 23)*
+- [ ] Finalize written part of General Exam **
 
-- [ ] Finalize written part of General Exam *(Week of May 23)*
-
-- [ ] General Exam *(June 1 - June 12)*
+- [ ] General Exam *(June)*
 
 ## Links
 1. Google Drive Folder: https://drive.google.com/drive/folders/1sYR5mElEBQouwopQ_1XYWJUpHpf2Arrs?usp=sharing
 2. Aims Page Draft: https://drive.google.com/open?id=1NNhOvxfUbXmyxQb4gCRad3Y4mAC9WLXnof4cwflrtUk
-3. General Proposal Draft: 
 4. Committee Meeting Doodle Poll: https://doodle.com/poll/htzwu6qptkd3m7m3
+5. OneNote Project Planning: https://uwnetid-my.sharepoint.com/:o:/g/personal/pmanko_uw_edu/EhOVS7BHG9RLmEOig9kec2QBcFbyfWFIp2vhlBDzwf-iCg?e=R6TSxv
 
 ## Admin Resources
 - New Advisor Form: https://canvas.uw.edu/courses/1201860/files/58110030?module_item_id=9722370
